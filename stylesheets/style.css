@@ -2,6 +2,13 @@
     outline: 1px red solid;
 }
 */
+html, body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 html {
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
@@ -167,6 +174,7 @@ span {
         text-align: center;
     }
     .chapter-reverse h2 {
+        margin: 0 0;
         align-self: center;
     }
     .chapter img {
