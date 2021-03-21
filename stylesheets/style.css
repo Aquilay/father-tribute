@@ -69,7 +69,7 @@ h2 {
     height: 35px;
     width: auto;
     position: absolute;
-    bottom: 80px;
+    top: 80vh;
     left: 48.8%;
     animation-name: arrow;
     animation-duration: 1.5s;
