@@ -130,7 +130,9 @@ footer {
     height: 60px;
 }
 
-
+span {
+    font-weight: bold;
+}
 
 /* Media queries */
 @media screen and (max-width: 480px) {
