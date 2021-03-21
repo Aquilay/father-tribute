@@ -141,6 +141,7 @@ span {
     }
     #hero {
         background-image: url("../assets/photo8_black_cropped.jpg");
+        height: 100vh;
     }
     #title1{
         text-align: center;
@@ -153,9 +154,13 @@ span {
         margin: 0 auto;
         top: 40%;
     }
+    #down-arrow {
+
+    }
     .chapter {
         flex-direction: column;
         align-items: center;
+        overflow: hidden;
     }
     h2 {
         align-self: center;
@@ -168,5 +173,6 @@ span {
         margin: 0 0;
         margin-top: 20px;
         width: 100vw;
+        height: auto;
     }
 }
