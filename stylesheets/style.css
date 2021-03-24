@@ -160,6 +160,7 @@ span {
     width: auto;
     animation-name: zoom;
     animation-duration: 0.6s;
+    pointer-events: none;
 }
 .close {
     position: absolute;
@@ -196,6 +197,7 @@ span {
 .images-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .gallery-column {
     flex: 32%;
