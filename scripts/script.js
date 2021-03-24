@@ -1,6 +1,6 @@
 let modal = document.getElementsByClassName("modal")[0];
 let modalImg = document.getElementsByClassName("modal-content")[0];
-let images = Array.from(document.getElementsByClassName("chapter-img"));
+let images = Array.from(document.querySelectorAll("img"));
 let query = window.matchMedia("(max-width: 768px)");
 
 console.log(modal);
@@ -13,7 +13,14 @@ function setModal () {
         modal.style.justifyContent = "center";
         modal.style.alignItems = "center";
 }
-images.forEach(image => image.addEventListener("click", setModal));
+images.forEach(image => {
+    console.log(image);
+    if (image.id === "down-arrow") return;
+    else {
+        image.addEventListener("click", setModal);
+    }
+    
+});
 
 let span = document.getElementsByClassName("close")[0];
 console.log(span);
